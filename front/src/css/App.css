@@ -1,0 +1,532 @@
+/* HEADER */
+
+.header {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.backgroundLinks {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  background-color: rgba(240, 192, 192, 0.732);
+  border: solid 1px rgb(97, 22, 130);
+}
+
+.positionDumbbels{
+  margin:5px
+}
+
+.dumbbell{
+  font-size: 25px;
+  color: rgb(97, 22, 130);
+}
+.dumbbell:hover{
+  color: rgb(97, 22, 130);
+}
+
+.links{
+display: flex;
+margin-top: 3px;
+}
+
+.link {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  width: 100px;
+  height: 18px;
+  border-radius: 10px;
+  border: none;
+  box-shadow: 2px 3px rgba(7, 7, 6, 0.448);
+  background-color: rgba(240, 192, 192, 0.732);
+  text-decoration: none;
+  outline: none;
+  color: rgb(97, 22, 130);
+  text-decoration: none;
+  margin: 13px 10px 0px;
+  font-size: 12PX;
+  color: rgb(97, 22, 130);
+}
+
+.link:focus{
+  color: rgb(194, 116, 116);
+  box-shadow: 1px 1px rgba(7, 6, 6, 0.448);
+  font-size: 12px;
+}
+
+
+.link:hover {
+  color: rgb(194, 116, 116);
+}
+
+.positionButtonHeader{
+  display: flex;
+  justify-content:center;
+ margin: 4px;
+}
+
+.buttonHeader {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  width: 30px;
+  height: 30px;
+  border-radius: 8px;
+  border: none;
+  box-shadow: 2px 3px rgba(7, 6, 6, 0.448);
+  background-color: rgba(240, 192, 192, 0.732);
+  text-decoration: none;
+  margin:5px;
+  /* outline: none; */
+  color: rgb(97, 22, 130);
+  font-size: 21px;
+}
+
+.buttonHeader:hover {
+  color: rgb(97, 22, 130);
+}
+
+.buttonHeader:active {
+  color: red;
+  box-shadow: 1px 1px rgba(7, 6, 6, 0.448);
+  transform: translateY(1px);
+}
+
+.img {
+  background-color: white;
+    margin: 15px;
+}
+
+/* FOOTER */
+
+.backgroundFooter {
+  background-color: rgba(240, 192, 192, 0.732);
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.buttonGeneral {
+  border-radius: 10px;
+  border: none;
+  box-shadow: 2px 4px rgba(7, 6, 6, 0.448);
+  background-color: rgba(240, 192, 192, 0.732);
+  margin: 5px 5px 10px;
+  outline: none;
+  color: rgb(97, 22, 130);
+}
+
+.buttonGeneral:hover {
+  background-color: rgba(241, 182, 182, 0.732);
+}
+
+.buttonGeneral:active {
+  box-shadow: 1px 1px rgba(7, 6, 6, 0.448);
+  transform: translateY(4px);
+}
+
+.backgroundFooter img {
+  border-radius: 10px;
+  margin-top: 20px;
+  box-shadow: 2px 4px rgba(7, 6, 6, 0.448);
+}
+
+.contactos {
+  display: flex;
+  justify-content: center;
+  margin: 5px;
+  color: rgb(97, 22, 130);
+  border-radius: 10px;
+}
+
+.siguenos {
+  margin-right: 60px;
+}
+
+.diseñador {
+  margin-left: 60px;
+}
+
+.fcb {
+  color: rgba(43, 37, 37, 0.611);
+  width: 30px;
+  height: 30px;
+  margin: 5px
+}
+
+.fcb:hover {
+  color: blue;
+}
+
+.inst {
+  color: rgba(43, 37, 37, 0.611);
+  width: 32px;
+  height: 32px;
+  margin: 5px
+}
+
+.inst:hover {
+  color: rgb(255, 0, 0);
+}
+
+.twtr {
+  color: rgba(43, 37, 37, 0.611);
+  width: 32px;
+  height: 32px;
+  margin: 5px
+}
+
+.twtr:hover {
+  color: rgb(0, 153, 255);
+}
+
+.linkedin {
+  color: rgba(43, 37, 37, 0.611);
+  width: 32px;
+  height: 32px;
+  margin: 5px
+}
+
+.linkedin:hover {
+  color: rgb(0, 195, 255);
+}
+
+
+
+@media (max-width:620px) {
+  /* HEADER */
+    /* .backgroundLinks{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+    } */
+
+  /* .link {
+    text-decoration: none;
+    margin: 5px;
+    font-size: 12PX;
+    color: rgb(97, 22, 130);
+  }
+
+  .buttonHeader {
+  font-size: 15px;
+  }
+
+  .link:focus{
+    color: rgb(194, 116, 116);
+    box-shadow: 1px 1px rgba(7, 6, 6, 0.448);
+    font-size: 12px;
+  } */
+
+  /* FOOTER */
+  .backgroundFooter img {
+    border-radius: 10px;
+    margin-top: 20px;
+    max-width: 450px;
+  }
+}
+
+@media (max-width:570px) {
+  /* HEADER */
+
+  .link {
+    text-decoration: none;
+    margin: 5px;
+    margin-top: 10px;
+    font-size: 11PX;
+    color: rgb(97, 22, 130);
+  }
+
+  .link:focus{
+    color: rgb(194, 116, 116);
+    box-shadow: 1px 1px rgba(7, 6, 6, 0.448);
+    font-size: 11px;
+  }
+
+  /* FOOTER */
+  .backgroundFooter img {
+    border-radius: 10px;
+    margin-top: 20px;
+    max-width: 450px;
+  }
+}
+
+@media (max-width:540px) {
+  /* HEADER */
+
+  .links{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+  .link {
+    text-decoration: none;
+    margin: 4px;
+    margin-top: 10px;
+    font-size: 11PX;
+    color: rgb(97, 22, 130);
+  }
+
+  .link:focus{
+    color: rgb(194, 116, 116);
+    box-shadow: 1px 1px rgba(7, 6, 6, 0.448);
+    font-size: 11px;
+  }
+
+  .buttonHeader {
+    font-size: 18px;
+    }
+
+  /* FOOTER */
+  .backgroundFooter img {
+    border-radius: 10px;
+    margin-top: 20px;
+    max-width: 400px;
+  }
+}
+
+@media (max-width:470px) {
+  /* HEADER */
+
+  .links{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+  .link {
+    text-decoration: none;
+    width: 85px;
+    margin: 6px;
+    margin-top: 10px;
+    font-size: 10PX;
+    color: rgb(97, 22, 130);
+  }
+
+  .link:focus{
+    color: rgb(194, 116, 116);
+    box-shadow: 1px 1px rgba(7, 6, 6, 0.448);
+    font-size: 10px;
+  }
+  .backgroundFooter img {
+    border-radius: 10px;
+    margin-top: 20px;
+    max-width: 400px;
+  }
+}
+
+
+@media (max-width:450px) {
+  /* HEADER */
+
+  .links{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+  .link {
+    text-decoration: none;
+    margin: 5px;
+    margin-top: 10px;
+    font-size: 10PX;
+    color: rgb(97, 22, 130);
+  }
+
+
+
+  /* FOOTER */
+  .backgroundFooter img {
+    border-radius: 10px;
+    margin-top: 20px;
+    max-width: 350px;
+  }
+
+  .siguenos {
+    margin-right: 30px;
+  }
+
+  .diseñador {
+    margin-left: 30px;
+  }
+}
+
+@media (max-width:400px) {
+  /* HEADER */
+
+      .links{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+}
+
+
+@media (max-width:380px) {
+  /* HEADER */
+  .links{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+  .link {
+    text-decoration: none;
+    margin: 5px;
+    margin-top: 10px;
+    color: rgb(97, 22, 130);
+  }
+
+  .link:focus{
+    color: rgb(194, 116, 116);
+    box-shadow: 1px 1px rgba(7, 6, 6, 0.448);
+    font-size: 10px;
+  }
+
+  .buttonHeader {
+    font-size: 15px;
+    margin-top: 20px;
+    }
+
+    .positionDumbbels {
+      font-size: 15px;
+      margin-top: 20px;
+      }
+
+  /* FOOTER */
+  .backgroundFooter img {
+    border-radius: 10px;
+    margin-top: 20px;
+    max-width: 300px;
+  }
+
+  .fcb {
+    color: rgba(43, 37, 37, 0.611);
+    width: 26px;
+    height: 26px;
+    margin: 5px
+  }
+
+  .inst {
+    color: rgba(43, 37, 37, 0.611);
+    width: 28px;
+    height: 28px;
+    margin: 5px
+  }
+
+  .twtr {
+    color: rgba(43, 37, 37, 0.611);
+    width: 28px;
+    height: 28px;
+    margin: 5px
+  }
+
+  .linkedin {
+    color: rgba(43, 37, 37, 0.611);
+    width: 28px;
+    height: 28px;
+    margin: 5px
+  }
+
+  .siguenos {
+    margin-right: 10px;
+  }
+
+  .diseñador {
+    margin-left: 10px;
+  }
+}
+
+@media (max-width:330px) {
+
+  .links{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+  .link:focus{
+    color: rgb(194, 116, 116);
+    box-shadow: 1px 1px rgba(7, 6, 6, 0.448);
+    font-size: 10px;
+  }
+
+  .buttonHeader {
+    font-size: 15px;
+    margin-top: 20px;
+    }
+
+  /* FOOTER */
+  .backgroundFooter img {
+    border-radius: 10px;
+    margin-top: 20px;
+    max-width: 250px;
+  }
+
+  .fcb {
+    color: rgba(43, 37, 37, 0.611);
+    width: 18px;
+    height: 18px;
+    margin: 5px
+  }
+
+  .inst {
+    color: rgba(43, 37, 37, 0.611);
+    width: 20px;
+    height: 20px;
+    margin: 5px
+  }
+
+  .twtr {
+    color: rgba(43, 37, 37, 0.611);
+    width: 20px;
+    height: 20px;
+    margin: 5px
+  }
+
+  .linkedin {
+    color: rgba(43, 37, 37, 0.611);
+    width: 20px;
+    height: 20px;
+    margin: 5px
+  }
+
+  .siguenos {
+    margin-right: 8px;
+  }
+
+  .diseñador {
+    margin-left: 8px;
+  }
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}

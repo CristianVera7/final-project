@@ -1,0 +1,29 @@
+.bodyEdit {
+    border-top: solid 1px rgb(97, 22, 130);
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: center;
+    background: url("https://i.blogs.es/0c601e/sarah-cervantes-bobmnkvry0q-unsplash-1-/1366_2000.jpeg") no-repeat center center/cover;
+    border: solid 1px rgb(98, 22, 130);
+    padding: 70px;
+}
+
+.inputExclusive{
+    background-color: rgba(240, 192, 192, 0.826);
+}
+
+.cardEdit {
+    background-color: rgba(240, 192, 192, 0.478);
+    border-radius: 20px;
+    border: solid 1px rgba(98, 22, 130, 0.49);
+    box-shadow: 3px 4px rgba(7, 6, 6, 0.448);
+    width: 289px;
+    height: 405px;
+}
+
+.textEdit {
+    margin: 15px;
+    color: rgb(97, 22, 130);
+    font-weight: 500;
+}

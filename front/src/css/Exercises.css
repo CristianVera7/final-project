@@ -1,0 +1,232 @@
+.bodyExercises {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgba(240, 192, 192, 0.732);
+    min-height: 30px;
+    border: solid 1px rgb(97, 22, 130);
+}
+
+.backgroundLinks2{
+    margin: 5px;
+}
+
+.link2 {
+    align-items: center;
+    text-decoration: none;
+    text-align: center;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 2px 3px rgba(7, 7, 6, 0.448);
+    background-color: rgba(240, 192, 192, 0.732);
+    color: rgb(97, 22, 130);
+    margin: 10px;
+    font-size: 12PX;
+}
+
+.link2:focus{
+    color: rgb(194, 116, 116);
+    box-shadow: 1px 1px rgba(7, 6, 6, 0.448);
+    font-size: 12px;
+  }
+
+.link2:hover {
+    color: rgb(194, 116, 116);
+}
+
+.exercises {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 25px
+}
+
+.card {
+    box-shadow: 6px 7px rgba(7, 6, 6, 0.578);
+    background-color: rgba(240, 192, 192, 0.732);
+    max-width: 320px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin: 17px;
+    border-radius: 20px;
+}
+
+.card:hover {
+    background-color: rgba(240, 192, 192, 0.786);
+    box-shadow: 2px 3px rgba(7, 6, 6, 0.578);
+    width: 323px;
+    height: auto;
+    
+}
+
+.card img {
+    box-shadow: -4px  -6px rgba(7, 6, 6, 0.448);
+    width: 270px;
+    height: 270px;
+    margin: 26px;
+    border-radius:50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card img:hover{
+    box-shadow: -1px  -2px rgba(7, 6, 6, 0.448);
+}
+
+.titleExercise {
+    color: rgb(97, 22, 130);
+    border-bottom: solid 1px rgb(97, 22, 130);
+    border-top: solid 1px rgb(97, 22, 130);
+    margin-top: 15px;
+}
+
+.musclesInActivity {
+    color: rgb(97, 22, 130);
+    border-top: solid 1px rgb(97, 22, 130);
+    border-bottom: solid 1px rgb(97, 22, 130);
+    min-height: 124px;
+}
+
+.equipment {
+    color: rgb(97, 22, 130);
+    margin: 10px;
+    min-height: 20px ;
+}
+
+.text {
+    margin: 10px;
+}
+
+@media (max-width:900px) {
+    .backgroundLinks2{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
+
+@media (max-width:800px) {
+    .backgroundLinks2{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    
+    .link2 {
+        text-decoration: none;
+        margin: 5px;
+        font-size: 12PX;
+        color: rgb(97, 22, 130);
+    }
+}
+
+@media (max-width:620px) {
+    .backgroundLinks2{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+
+    }
+    
+    .link2 {
+        text-decoration: none;
+        margin: 5px;
+        font-size: 12PX;
+        color: rgb(97, 22, 130);
+    }
+}
+
+@media (max-width:540px) {
+    .link2 {
+        text-decoration: none;
+        margin: 2px;
+        font-size: 11PX;
+        color: rgb(97, 22, 130);
+    }
+}
+
+@media (max-width:450px) {
+    .backgroundLinks2{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+
+    }
+    .link2 {
+        text-decoration: none;
+        margin: 2px;
+        font-size: 11PX;
+        color: rgb(97, 22, 130);
+    }
+}
+
+@media (max-width:400px) {
+    .link2 {
+        text-decoration: none;
+        margin: 2px;
+        font-size: 11PX;
+        color: rgb(97, 22, 130);
+    }
+    .card img {
+        width: 270px;
+        height: 265px;
+        margin: 14px;
+        
+    }
+}
+
+@media (max-width:380px) {
+    .link2 {
+        margin: 2px;
+        font-size: 11PX; 
+    }
+    .card img {
+        width: 220px;
+        height: 215px;
+        margin: 35px;
+        
+    }
+}
+
+@media (max-width:350px) {
+    .card img {
+        width: 200px;
+        height: 195px;
+        margin: 25px;  
+    }
+}
+
+@media (max-width:330px) {
+    .card img {
+        width: 180px;
+        height: 175px;
+        margin: 25px;  
+    }
+}
+
+@media (max-width:310px) {
+    .card img {
+        width: 150px;
+        height: 145px;
+        margin: 40px;  
+    }
+}
+
+@media (max-width:290px) {
+    .card img {
+        width: 150px;
+        height: 145px;
+        margin: 25px;  
+    }
+}

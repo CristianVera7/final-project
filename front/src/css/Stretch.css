@@ -1,0 +1,123 @@
+.bodyStretchExercises {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgba(240, 192, 192, 0.732);
+    border: solid 1px rgb(97, 22, 130);
+}
+
+.stretchLink {
+    margin: 10px 20px;
+    font-size: 15PX;
+    color: rgb(97, 22, 130);
+}
+
+.stretchExercises {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 30px;
+}
+
+.stretchCard {
+    box-shadow: 6px 7px rgba(7, 6, 6, 0.578);
+    background-color: rgba(240, 192, 192, 0.732);
+    width: 320px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin: 22px;
+    border-radius: 20px;
+}
+
+.stretchCard:hover {
+    background-color: rgba(240, 192, 192, 0.786);
+    box-shadow: 2px 3px rgba(7, 6, 6, 0.578);
+    width: 323px;
+    height: auto;
+}
+
+.stretchCard img {
+    box-shadow: -4px  -6px rgba(7, 6, 6, 0.448);
+    width: 270px;
+    height: 265px;
+    margin: 25px 28px;
+    border-radius: 200px;
+   
+}
+
+.stretchCard img:hover{
+    box-shadow: -1px  -2px rgba(7, 6, 6, 0.448);
+    
+}
+
+.stretchMusclesInActivity {
+    color: rgb(97, 22, 130);
+    border-top: solid 1px rgb(97, 22, 130);
+    min-height: 120px;
+}
+
+.stretchText {
+    margin: 10px;
+}
+
+@media (max-width:400px) {
+    .stretchCard img {
+        width: 270px;
+        height: 265px;
+        margin: 22px;
+
+    }
+}
+
+@media (max-width:380px) {
+    .stretchCard img {
+        width: 220px;
+        height: 215px;
+        margin:45px;
+
+    }
+}
+
+@media (max-width:350px) {
+    .stretchCard {
+        width: 270px;
+        height: auto;
+    }
+    .stretchCard img {
+        width: 200px;
+        height: 195px;
+        margin: 25px;
+    }
+}
+
+@media (max-width:330px) {
+    .stretchCard img {
+        width: 180px;
+        height: 175px;
+        margin: 45px;
+    }
+}
+
+@media (max-width:310px) {
+    .stretchCard {
+        width: 240px;
+        height: auto;
+    }
+    .stretchCard img {
+        width: 180px;
+        height: 175px;
+        margin: 33px;
+    }
+}
+
+@media (max-width:290px) {
+    .stretchCard img {
+        width: 180px;
+        height: 175px;
+        margin: 30px;
+    }
+}
